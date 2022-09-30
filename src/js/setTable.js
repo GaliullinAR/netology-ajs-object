@@ -1,4 +1,3 @@
-
 export function setTable(object, array) {
   const copyObject = { ...object };
   const resultArr = [];
@@ -34,4 +33,3 @@ export function setTable(object, array) {
   });
   return [...resultArr, ...alphabetArr];
 }
-
